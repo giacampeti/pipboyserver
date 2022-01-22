@@ -28,7 +28,7 @@ public class Server {
         factoryBean.setResourceProvider(new SingletonResourceProvider(wr));
 
         /* set address to host */
-        factoryBean.setAddress("https://pipboy2022.herokuapp.com/");
+        factoryBean.setAddress("https://localhost:8080/");
 
         /* set providers */
         List<Object> providers = new ArrayList<Object>();
