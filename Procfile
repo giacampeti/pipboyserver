@@ -1,1 +1,1 @@
-web: java -cp pipboy-webserver-jar-with-dependencies.jar
+web: java -cp pipboy-webserver-1.0.jar
