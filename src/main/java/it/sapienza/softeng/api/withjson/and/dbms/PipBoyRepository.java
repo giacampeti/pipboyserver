@@ -16,7 +16,7 @@ import javax.ws.rs.*;
  * Repository class to expose web services methods
  * @author : pablohp
  */
-@Path("weapons")
+@Path("/weapons")
 public class PipBoyRepository {
     private Connection conn;
     private final static int port = 5432; 
